@@ -1,3 +1,4 @@
+# Adam Benali
 def encoder(password):
     newPassword = ""
     for i in password:
