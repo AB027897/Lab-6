@@ -2,5 +2,5 @@
 def decode(pwenc):
 	out = ""
 	for c in pwenc:
-		out += chr((ord(c) % 0x30 - 3) % 10 + 0x30)
+		out += str((int(c) - 3) % 10)
 	return out
