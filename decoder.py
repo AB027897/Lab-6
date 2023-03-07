@@ -1,8 +1,8 @@
 # Adam Benali
-def encoder(password):
+def decoder(password):
     newPassword = ""
     for i in password:
-        newPassword += (int(i)+ 3)
+        newPassword += (int(i) - 3)
     return newPassword
 
 
